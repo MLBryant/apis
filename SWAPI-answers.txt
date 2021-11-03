@@ -1,0 +1,49 @@
+
+
+1. The height of Darth Vader: 202
+
+2. The population of the planet Alderaan: 2,000,000,000
+
+3. The name of the manufacturer of the Millennium Falcon: Corellian Engineering Corporation
+
+4. The name of the species that C-3PO belongs to (multiple URLs): Droid
+
+5. The title of each film that Obi-Wan Kenobi is in (multiple URLs): "A New Hope", "Empire Strikes Back", "Return of the Jedi", "The Phantom Menace", "Attack of the Clones", "Revenge of the Sith"
+
+6. Use the search query (the how to on the search query is at the bottom of the Getting Started section of the documentation) to get the information about the Millennium Falcon, it’s a starship:
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "name": "Millennium Falcon",
+            "model": "YT-1300 light freighter",
+            "manufacturer": "Corellian Engineering Corporation",
+            "cost_in_credits": "100000",
+            "length": "34.37",
+            "max_atmosphering_speed": "1050",
+            "crew": "4",
+            "passengers": "6",
+            "cargo_capacity": "100000",
+            "consumables": "2 months",
+            "hyperdrive_rating": "0.5",
+            "MGLT": "75",
+            "starship_class": "Light freighter",
+            "pilots": [
+                "https://swapi.dev/api/people/13/",
+                "https://swapi.dev/api/people/14/",
+                "https://swapi.dev/api/people/25/",
+                "https://swapi.dev/api/people/31/"
+            ],
+            "films": [
+                "https://swapi.dev/api/films/1/",
+                "https://swapi.dev/api/films/2/",
+                "https://swapi.dev/api/films/3/"
+            ],
+            "created": "2014-12-10T16:59:45.094000Z",
+            "edited": "2014-12-20T21:23:49.880000Z",
+            "url": "https://swapi.dev/api/starships/10/"
+        }
+    ]
+}
